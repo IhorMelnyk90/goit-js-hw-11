@@ -1,0 +1,40 @@
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+.photo-card {
+  -webkit-box-shadow: 0 3px 3px 1px rgba(95, 114, 226, 1);
+  box-shadow: 0 3px 3px 1px rgba(95, 114, 226, 1);
+  text-decoration: none;
+  color: #000;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+    margin: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - 30px);
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item-number {
+  font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.load-more {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 10px;
+
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgb(33, 87, 202);
+  border-radius: 5px;
+  background-color: rgb(137, 167, 231);
+  -webkit-box-shadow: 0 3px 3px 1px rgba(95, 114, 226, 1);
+  box-shadow: 0 3px 3px 1px rgba(95, 114, 226, 1);
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+
+  transition: box-shadow 250ms linear, color 250ms linear;
+
+  &:hover,
+  &:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+  }
+
+
+}
